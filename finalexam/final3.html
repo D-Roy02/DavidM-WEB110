@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--David Monroy 5/11/25-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mental Health Log</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+    <nav>
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">Tips</a></li>
+            <li><a href="final3.html">Log</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Mental Health Log Form</h1>
+        <img src="log.jpg" alt="Form Log image" class="responsive-img">
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="mood">How do you feel today?</label><br>
+            <input type="radio" id="happy" name="mood" value="happy">
+            <label for="happy">Happy</label>
+            <input type="radio" id="okay" name="mood" value="okay">
+            <label for="okay">Okay</label>
+            <input type="radio" id="sad" name="mood" value="sad">
+            <label for="sad">Sad</label><br><br>
+
+            <label for="activities">Which activities have you done recently?</label><br>
+            <input type="checkbox" id="exercise" name="activity" value="exercise">
+            <label for="exercise">Exercise</label>
+            <input type="checkbox" id="read" name="activity" value="read">
+            <label for="read">Read</label>
+            <input type="checkbox" id="rest" name="activity" value="rest">
+            <label for="rest">Rest</label><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="thoughts">Anything on your mind?</label><br>
+            <textarea id="thoughts" name="thoughts" rows="4" cols="40"></textarea><br><br>
+
+            <label for="frequency">How often do you practice self-care?</label>
+            <select id="frequency" name="frequency">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="rarely">Rarely</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+
+    <footer>
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">Tips</a></li>
+            <li><a href="final3.html">Log</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
