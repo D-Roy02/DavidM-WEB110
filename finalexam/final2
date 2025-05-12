@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--David Monroy 5/11/25-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mental Health Tips</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+    <nav>
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">Tips</a></li>
+            <li><a href="final3.html">Log</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Daily Mental Wellness Tips</h1>
+        <img src="tips.jpg" alt="Wellness tips image" class="responsive-img">
+
+        <p>Making small daily changes can greatly improve your mental health. Here are some ideas to help you get started:</p>
+
+        <h2>Examples of Self-Care Routines</h2>
+        <ul>
+            <li>Getting enough sleep</li>
+            <p>Good sleep directly supports better attention, school performance, emotional regulation, and impulse control.</p>
+            <li>Eating healthy and staying hydrated</li>
+            <p>A healthy diet can boost brain function and improve mood.</p>
+            <li>Focus on positivity</li>
+            <p> A positive attitude can help us cope with difficult situations and challenges more effectively.</p>
+            <li>Setting goals and priorities</li>
+            <p>Provides tangible evidence of growth and improvement which helps reinforce a positive mindset.</p>
+            <li>Exercise Regularly</li>
+            <p>Helps with better brain function, mood enhancment, and boost self-esteem.</p>
+        </ul>
+
+        <h2>Top 5 Things to avoid</h2>
+        <ol>
+            <li>Overloading your schedule</li>
+            <p>Causes burnout and increases stress and anxiety</p>
+            <li>Neglecting self-care</li>
+            <p>Causes emotional exhaustion and physical health decrease.</p>
+            <li>Social media overload</li>
+            <p>Disrupts sleep and causes social isolation, and a reduction in attention span.</p>
+            <li>Ignoring professional or any help</li>
+            <p>Not getting any help can cause your mental health to get worse which could lead to substance abuse or self harm.</p>
+            <li>Substance abuse</li>
+            <p>On top of a physical health decline, it causes an increase in depression and anciety. Also causes social and relationship problems.</p>
+        </ol>
+
+    </main>
+
+    <footer>
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">Tips</a></li>
+            <li><a href="final3.html">Log</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
